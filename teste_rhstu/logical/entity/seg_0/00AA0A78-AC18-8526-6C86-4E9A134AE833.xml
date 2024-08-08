@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00AA0A78-AC18-8526-6C86-4E9A134AE833" name="T_RHSTU_HOSPITAL_END">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:19:27 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_END_HOSPITAL" id="D51C5335-8ED8-73F1-DB9C-DEC81241B491">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:21:57 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNID_HOSPITAL" id="6865DB2A-5E84-ACDD-EA55-1FC55C1E52AE">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:21:30 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>17572212-066E-5CB8-15C3-6C0B31A1DCE2</generatorID>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>C3796F42-602F-5AE2-4BB7-9B2AE3D1F6B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LOGRADOURO" id="95A2D082-2270-0161-07FC-39556241D93B">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:34:41 UTC</createdTime>
+<generatorID>8FBAD39C-B562-A4F1-640E-B9D408F9ADF4</generatorID>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>28F5566D-AB4F-FAF1-DAF0-B17549D7D98F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="6FB63839-AACA-D7DB-99D4-C3CB5AFD87F2">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:37:14 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_NUMERO" id="E002A7B9-B270-30AB-4FF4-22E9C86BF909">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:37:26 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PONTO_REFERENCIA" id="F471C94C-C6C7-E3FD-6744-84370C9D1B84">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:37:46 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33015AE3-F188-D851-6269-7D471F2EB1FD" name="T_RHSTU_HOSPITAL_END PK">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:22:18 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D51C5335-8ED8-73F1-DB9C-DEC81241B491</newElementsIDs>
+<usedAttributes>
+<attributeRef>D51C5335-8ED8-73F1-DB9C-DEC81241B491</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

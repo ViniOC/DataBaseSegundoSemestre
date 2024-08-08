@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C623B55-1EFD-3857-0757-FEEEA742DAA9" name="T_RHSTU_CIDADE">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:20:36 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CIDADE" id="460EC754-36C6-F639-4365-294398188666">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:29:16 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="35CD320D-2423-3E9B-CB3F-3B87899C94A1">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:33:17 UTC</createdTime>
+<generatorID>5FE07DD1-FEEB-4A76-8497-029C01608DF6</generatorID>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>E615097E-4C65-1B2A-417E-30CF14D7F9FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="99D5679C-E0AA-51D7-4C8A-5FA8C7B3CA17">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:30:34 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_IBGE" id="8B9BA71A-72E8-E618-502D-C10106185579">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:30:59 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="003FC970-4B11-A3C5-1A0B-25187EB6FE01">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:31:18 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90065E76-AA1D-EEB0-BFF2-579500741659" name="T_RHSTU_CIDADE PK">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:29:24 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>460EC754-36C6-F639-4365-294398188666</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

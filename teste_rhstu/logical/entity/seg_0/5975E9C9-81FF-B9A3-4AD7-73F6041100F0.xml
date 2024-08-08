@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5975E9C9-81FF-B9A3-4AD7-73F6041100F0" name="T_RHSTU_BAIRRO">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:20:14 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_BAIRRO" id="2653F987-6787-D2A0-23E8-F9B9EFD4C719">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:25:07 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIDADE" id="C001B504-32DB-3E83-C833-6615684CEF74">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:33:49 UTC</createdTime>
+<generatorID>53E41216-BB7E-FBF6-32B2-3C0248C02B26</generatorID>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>460EC754-36C6-F639-4365-294398188666</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="635E34F8-926A-A124-12CA-5F5CDEF91C10">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:31:55 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ZONA_BAIRRO" id="206C28FD-4678-3D7F-20D3-D8EDC0D28A60">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:32:04 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="435A0C6F-665A-86EA-DB32-6BFF4675248C" name="T_RHSTU_BAIRRO PK">
+<createdBy>Vinicius</createdBy>
+<createdTime>2024-08-08 14:25:24 UTC</createdTime>
+<ownerDesignName>teste_rhstu</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2653F987-6787-D2A0-23E8-F9B9EFD4C719</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
