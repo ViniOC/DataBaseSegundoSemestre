@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F5E7BFA-ED3D-81EC-4037-FFABD2B057CD" name="T_RHSTU_MEDICO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>5F477709-1835-BF78-2C6F-0805B23D6DDF</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_MEDICO" id="680FE53E-CEBB-41B1-5E38-F410ED88DA00">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>1B9CB403-E629-65E7-585F-DA2527A66279</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_RHSTU_MEDICO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_RHSTU_MEDICO</autoIncrementTriggerName>
+</Column>
+<Column name="NM_MEDICO" id="3D2AFE92-AA00-7C18-AD1F-D5ED0B576A9A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>9F8A8943-EB44-C4BB-BB3B-CAF1874252E0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CRM" id="86496667-CC87-47F5-6000-BEB9E08ADB45">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>4DF2C6EE-69D0-134A-D06B-0D24B5EF3009</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESPECIALIDADE" id="5A890BAA-E7D1-27DA-F19C-658E11404A89">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>2EAED291-978F-DBE1-D669-D125320D27BB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F083FEB-F85A-6F34-264F-E207B7CD34D9" name="PK_RHSTU_MEDICO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>42357FD1-4EB3-2628-0F66-ABEEA687B1EC</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="680FE53E-CEBB-41B1-5E38-F410ED88DA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

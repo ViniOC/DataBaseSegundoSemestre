@@ -1,0 +1,231 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1483689-14B2-6A8D-60D3-350D26D12A8B" name="T_RHSTU_PACIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>506DDC9A-FC9E-D13D-7FAD-ED571E3AEA46</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PACIENTE" id="5C207F95-FC51-9A53-46F9-A2733B2045BC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>15A097FF-A07C-398B-0F86-D42FFB66F5C7</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_RHSTU_PACIENTE</autoIncrementSequenceName>
+<autoIncrementTriggerName>RT_RHSTU_PACIENTE</autoIncrementTriggerName>
+</Column>
+<Column name="NM_PACIENTE" id="EB64A7E1-9356-0BB2-BC65-0A71F6DCCB9A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome completo do  paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome completo do  paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>E7B9BE27-8D29-04BC-E636-46B8778D8946</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CPF" id="33CF939A-DB4E-AA56-1CB5-25E573560EA5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do  CPF paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  CPF paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></commentInRDBMS>
+<generatorID>07617EDF-1389-1681-00B9-B2B87A513598</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_RG" id="5FB21D0A-49AD-EF26-91CD-98E96D73CE01">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do  RG  paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  RG  paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></commentInRDBMS>
+<generatorID>5FF1DCF8-0752-62E4-FC1A-C66FEA7746A3</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="A345E937-753F-F204-8F96-CBC86691FA44">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de nascimento do  paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de nascimento do  paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>625095C3-64B3-2DCE-EAAF-A343DAD4394F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FL_SEXO_BIOLOGICO" id="A53B8CCE-9BFE-B25E-9537-A192196C4AE9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a flag do sexo biológico de nascimento do Paciente. Os valores possíveis são (F)emea  ou (M)acho ou (I)ntersexual. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a flag do sexo biológico de nascimento do Paciente. Os valores possíveis são (F)emea  ou (M)acho ou (I)ntersexual. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>51AA7BEA-2561-883C-3F87-A4C00E151D5C</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<constraintName>CK_RHSTU_PACIENTE_SEXO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Paciente do tipo Femea"/>
+<valueDef value="I" description="Paciente do tipo Intersexual"/>
+<valueDef value="M" description="Paciente do tipo Macho"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESCOLARIDADE" id="30442D05-3E21-8441-ABE8-368CEA7E28B8">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a Escolaridade do  paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a Escolaridade do  paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>5A76BFC7-CE43-5891-06E9-22F6EFAF2AC2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESTADO_CIVIL" id="23EE8982-10EC-4EF5-DFDA-6C1B2DD22337">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o Estado Civil  do  paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o Estado Civil  do  paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>26542855-8ED5-214E-F3E8-4C04DD59697B</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_GRUPO_SANGUINEO" id="33437BCA-7412-084C-A076-ADAC6D2E0BC3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o grupo sanguineo do  paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o grupo sanguineo do  paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>558E4362-07FD-E811-5A60-FEF4903B8866</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_ALTURA" id="6383AB50-E3FF-0756-D6B9-86F9398AF06A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a altura do  paciente.  Seu conteúdo é obrigatório e o limite de altura deve ficar entre 0.1 e 2.99.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a altura do  paciente.  Seu conteúdo é obrigatório e o limite de altura deve ficar entre 0.1 e 2.99.]]></commentInRDBMS>
+<generatorID>FF7EEA05-B081-6DEA-1669-0D521C6B60F8</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<constraintName>CK_RHSTU_PACIENTE_ALTURA</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0.1</defaultValue>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0.1</beginValue>
+<endValue>2.99</endValue>
+<description>Faixa de valores possíveis para a altura do paciente.</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="NR_PESO" id="086E2AD6-1DB0-075D-2ECA-CD22232EFBA6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o peso  do  paciente.  Seu conteúdo é obrigatório. A faixa de valores permitidos está entre 1 e 800kg.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o peso  do  paciente.  Seu conteúdo é obrigatório. A faixa de valores permitidos está entre 1 e 800kg.]]></commentInRDBMS>
+<generatorID>DBF23AAB-D826-B0E5-2D82-B48D51E90BDF</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<constraintName>UK_RHSTU_PACIENTE_PESO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>800</endValue>
+<description>Faixa de valores possíveis para o peso do paciente.</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7533BF9-BC77-C58C-AE55-ECD11DDB6215" name="PK_RHSTU_PACIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>6E644410-7AD5-C7FC-2576-8D927C238CC0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C207F95-FC51-9A53-46F9-A2733B2045BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67C3F9A6-9752-61DF-C770-5A647508E123" name="UK_RHSTU_CPF_PACIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>F3B9FD5B-EC3A-3336-028D-EA384E05B934</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33CF939A-DB4E-AA56-1CB5-25E573560EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04CA179E-FF51-8B7F-91D0-FC3C86EE4BDF" name="UK_RHSTU_RG_PACIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>9A4CED59-7590-1FE7-9DDA-FEB2A43D3187</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB21D0A-49AD-EF26-91CD-98E96D73CE01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7033530B-CF29-51B4-5EE3-7D71524568A6" containerWithKeyObject="0195D213-42C3-AA48-2D49-65C57F317D36" localFKIndex="D447CFA2-5C4B-A867-B634-88C6315F11FA" name="FK_RHSTU_PAC_PLANO_SAUDE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:15 UTC</createdTime>
+<generatorID>64277932-723C-53E9-4B5B-01730F978667</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<referredTableLongName>T_RHSTU_PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1483689-14B2-6A8D-60D3-350D26D12A8B</referredTableID>
+<keyObject>F7533BF9-BC77-C58C-AE55-ECD11DDB6215</keyObject>
+<referredKeyID>F7533BF9-BC77-C58C-AE55-ECD11DDB6215</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PACIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00015541-F339-060B-7ACA-79608444B122" containerWithKeyObject="EC9B0F03-011E-F869-03C8-14822CE5B4D7" localFKIndex="EFE55F3B-59A7-A63B-6717-A696248BA2E6" name="FK_LOGR_END_UNID_HOSPITALAR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-08-16 17:50:14 UTC</createdTime>
+<generatorID>C9AA404F-3F73-B562-BF2E-D5A73690E21C</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<referredTableLongName>T_RHSTU_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA2ED333-DD98-EA9E-D282-94C132540C5A</referredTableID>
+<keyObject>4F4496E6-7A85-37DE-D386-09C2E58E7D00</keyObject>
+<referredKeyID>4F4496E6-7A85-37DE-D386-09C2E58E7D00</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LOGRADOURO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
